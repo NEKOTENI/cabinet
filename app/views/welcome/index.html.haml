@@ -1,1 +1,18 @@
-%h1 Voila! This is the Placeholder!
+#banner
+  .banner_content
+    %h1 File Cabinet
+    %p Your life's work, Organized, always.
+    %button= link_to "Enter", new_user_registration_path
+
+#callouts
+  .callout_inner
+    .wrapper
+      .callout
+        %h2 Organize
+        %p We're Peak Design, a San Francisco based product design company. We're also the luckiest goobers on the planet; we engineer and make world-class photography gear, and we both shape it and share it with the Kickstarter community.
+
+#bottom_cta
+  .wrapper
+    %h2 Go Ahead!
+    %br
+    %button= link_to "Join Now", new_user_registration_path
